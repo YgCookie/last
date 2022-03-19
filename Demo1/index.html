@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<title>photo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+<link media="all" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='http://fonts.font.im/css?family=Lora' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/index1.css">
+
+  </head>
+  <body>
+    <nav class="nav">
+      <button id="button2" class="button"><i class="fa fa-bars"></i></button>
+    </nav>
+
+    <div id="over" class="close animation-top">
+      <button id="button1" class="butn1"><i class="fa fa-times"></i></button>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Photo</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+<!-- 头部 -->
+    <header class="header">
+    <h1>PHOTOLIO</h1>
+    <p>A template made by yangyang.cn for photographers.</p>
+    <button id="tobutton"class="butn">Toogle Grid padding</button>
+    </header>
+
+    <!-- 主体 -->
+    <main id="main" class="container">
+
+    <div class="photo">
+      <img src="https://s2.loli.net/2022/03/10/QqmIA96CFxaPczf.jpg" /></a>
+      <a href="https://sm.ms/image/nJ2dzqUxEO5G8Yy" target="_blank"><img src="https://s2.loli.net/2022/03/10/nJ2dzqUxEO5G8Yy.jpg" /></a>
+      <a href="https://sm.ms/image/jcHGC4dfSBoVvix" target="_blank"><img src="https://s2.loli.net/2022/03/10/jcHGC4dfSBoVvix.jpg" /></a>
+      <a href="https://sm.ms/image/N7i9nm1pq6GKBuD" target="_blank"><img src="https://s2.loli.net/2022/03/10/N7i9nm1pq6GKBuD.jpg" /></a>
+      <a href="https://sm.ms/image/wIP6WCuvjsVl8bO" target="_blank"><img src="https://s2.loli.net/2022/03/10/wIP6WCuvjsVl8bO.jpg" /></a>
+
+    </div>
+
+    <div class="photo">
+      <a href="https://sm.ms/image/azBx6lLwMDgT4dk" target="_blank"><img src="https://s2.loli.net/2022/03/10/azBx6lLwMDgT4dk.jpg" /></a>
+      <a href="https://sm.ms/image/wxQA3LFbBYUDZK6" target="_blank"><img src="https://s2.loli.net/2022/03/10/wxQA3LFbBYUDZK6.jpg" /></a>
+      <a href="https://sm.ms/image/2FMrqz5ARpNuYkV" target="_blank"><img src="https://s2.loli.net/2022/03/10/2FMrqz5ARpNuYkV.jpg" /></a>
+      <a href="https://sm.ms/image/dHq5gzW1jIk62eY" target="_blank"><img src="https://s2.loli.net/2022/03/10/dHq5gzW1jIk62eY.jpg" /></a>
+      <a href="https://sm.ms/image/w9CAe5Sy14ldOGB" target="_blank"><img src="https://s2.loli.net/2022/03/10/w9CAe5Sy14ldOGB.jpg" /></a>
+    </div>
+
+    <div class="photo">
+      <a href="https://sm.ms/image/xRYzgAHKkDT3Mq1" target="_blank"><img src="https://s2.loli.net/2022/03/10/xRYzgAHKkDT3Mq1.jpg" /></a>
+      <a href="https://sm.ms/image/g9Ok4ePdB5wQhTl" target="_blank"><img src="https://s2.loli.net/2022/03/10/g9Ok4ePdB5wQhTl.jpg" /></a>
+      <a href="https://sm.ms/image/1UaOHFgTk6ILNc3" target="_blank"><img src="https://s2.loli.net/2022/03/10/1UaOHFgTk6ILNc3.jpg" /></a>
+      <a href="https://sm.ms/image/3y9ZOMiahcxFArf" target="_blank"><img src="https://s2.loli.net/2022/03/10/3y9ZOMiahcxFArf.jpg" /></a>
+      <a href="https://sm.ms/image/cBR6CdnZxT1uAGl" target="_blank"><img src="https://s2.loli.net/2022/03/10/cBR6CdnZxT1uAGl.jpg" /></a>
+    </div>
+
+    </main>
+    <!-- 尾部 -->
+    <footer class="footer">
+<p class="icon">
+  <i class="fa fa-weixin"></i>
+  <i class="fa fa-weibo"></i>
+  <i class="fa fa-github"></i>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-qq"></i>
+
+</p>
+<p>
+power by <a href="#" target="_blank">yangyang.cn</a>
+</p>
+    </footer>
+    <script type="text/javascript">
+      var over=document.getElementById("over");
+      var button1=document.getElementById("button1");
+      var button2=document.getElementById("button2");
+      button2.onclick=function(){
+        over.style.display="block";
+      }
+      button1.onclick=function(){
+        over.style.display="none";
+      }
+
+
+      var tobutton=document.getElementById("tobutton");
+      var main=document.getElementById("main");
+      tobutton.onclick=function(){
+        if (main.className.indexOf("space")>-1) {
+          main.className = main.className.replace("space","");
+        } else {
+          main.className = main.className + " space"
+        }
+      }
+
+    </script>
+
+  </body>
+</html>

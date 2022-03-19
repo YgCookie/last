@@ -1,0 +1,31 @@
+
+.container{
+  position: absolute;
+text-align: center;
+width: 100%;
+height: auto;
+
+  }
+h1{
+  color: #0000ff;
+
+}
+
+body{
+background: url(https://s2.loli.net/2021/12/18/vpz47hNi6EjyBDM.jpg) no-repeat center center;
+background-attachment: fixed";
+background-size:100% 100%;
+position: relative;
+
+}
+.btn{
+  width: 100px;
+  height: :60px;
+  background-color: #00ff00;
+  color: #fff;
+  font-size: 24px;
+  line-height: 60px;
+  margin: 30px auto;
+  border-radius: 10px;
+  transition: 1s;
+}
